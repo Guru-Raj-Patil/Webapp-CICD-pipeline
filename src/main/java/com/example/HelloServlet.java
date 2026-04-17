@@ -1,4 +1,4 @@
-package main.java.com.example;
+package com.example;
 
 import java.io.*;
 import jakarta.servlet.*;
@@ -7,8 +7,8 @@ import jakarta.servlet.http.*;
 public class HelloServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request,
-            HttpServletResponse response)
-            throws ServletException, IOException {
+                         HttpServletResponse response)
+                         throws ServletException, IOException {
 
         response.setContentType("text/html");
 
